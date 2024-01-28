@@ -793,5 +793,15 @@ progress::-moz-progress-bar {
         align-content: center;
         gap: 7px;
     }
+    
+    .texto_video_1{
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .texto_video_2{
+        font-size: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 
 }
