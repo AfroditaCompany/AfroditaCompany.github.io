@@ -853,4 +853,55 @@ progress::-moz-progress-bar {
         align-content: center;
     }
 
+    .tarjeta_principal_seccion_1{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .tarjeta_principal_seccion_2{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 15px;
+    }
+
+    .texto_tarjeta_titulo{
+        color: #202020;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .texto_tarjeta_seccion{
+        color: #202020;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .texto_tarjeta_autor{
+        color: #202020;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        text-align: start;
+    }
+    
+    .texto_tarjeta_fecha{
+        color: #202020;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        text-align: start;
+    }
+
 }
