@@ -905,4 +905,19 @@ progress::-moz-progress-bar {
         text-align: start;
     }
 
+    .boton_carrusel{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9;
+        height: 100%;
+        border: none;
+        background: #00000030;
+        cursor: pointer;
+        transition: 0.5s;
+        color: #ffffff75;
+        font-size: 15px;
+        width: 20px;
+    }
+
 }
