@@ -725,5 +725,73 @@ progress::-moz-progress-bar {
         width: 80%;
         text-align: center;
     }
+
+    .tarjetas_fila{
+        width: 47%;
+        height: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        cursor: pointer;
     
+    
+    
+        box-sizing: border-box;
+        flex: 0 0 auto;
+    
+        animation: carga_tarjetas 1s;
+    }
+    
+    .texto_tarjeta_seccion_2{
+        color: #202020;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 13px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .texto_tarjeta_titulo_2{
+        color: #202020;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .texto_tarjeta_autor_2{
+        color: #202020;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        width: 100%;
+        text-align: start;
+    }
+    
+    .texto_tarjeta_fecha_2{
+        color: #202020;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .tarjetas_fila_seccion_1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .tarjetas_fila_seccion_2{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        gap: 7px;
+    }
+
 }
