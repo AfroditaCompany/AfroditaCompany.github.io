@@ -804,4 +804,53 @@ progress::-moz-progress-bar {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+    .tarjetas_grande_fila{
+        width: 48%;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        cursor: pointer;
+    }
+
+    .contenedor_tarjetas_pequeñas{
+        width: 48%;
+        height: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        gap: 10px;
+        overflow: scroll;
+    }
+
+    .tarjetas_pequenas_fila{
+        width: 100%;
+        height: 222px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        cursor: pointer;
+    }
+
+    .tarjetas_grande_fila_seccion_1{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    .tarjetas_grande_fila_seccion_2{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+
 }
