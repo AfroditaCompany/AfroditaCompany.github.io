@@ -681,11 +681,11 @@ progress::-moz-progress-bar {
 @media screen and (min-width:0px) and (max-width:500px) and (min-height:0px) and (max-height:2768px){
     
     .texto_opciones{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .ancla_opciones{
-        width: 90px;
+        width: 70px;
     }
 
     .contenedor_portada{
