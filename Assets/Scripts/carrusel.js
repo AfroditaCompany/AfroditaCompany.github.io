@@ -1,3 +1,15 @@
+function facebook(){
+    location.href="https://www.facebook.com/afroditacompany/";
+}
+
+function instagram(){
+    location.href="https://www.instagram.com/afrodita_company/";
+}
+
+
+
+
+
 function mostrarPosterior(){
     document.getElementById("id_contenedor_tarjetas_carrusel_1").style.display="none";
     document.getElementById("id_contenedor_tarjetas_carrusel_2").style.display="flex";
