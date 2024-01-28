@@ -412,6 +412,7 @@ video{
     transition: 0.5s;
     color: #ffffff75;
     font-size: 30px;
+    width: 30px;
 }
 
 .boton_carrusel:hover{
