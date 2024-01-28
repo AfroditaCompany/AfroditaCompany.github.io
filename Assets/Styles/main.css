@@ -223,6 +223,10 @@ video{
     gap: 15px;
 }
 
+.ajuste_tarjetas{
+    gap: 10px;
+}
+
 .tarjetas_larga_fila{
     width: 22%;
     height: 600px;
@@ -637,7 +641,7 @@ progress::-moz-progress-bar {
 }
 
 .texto_extracto_nota{
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 60%;
     text-align: center;
@@ -663,6 +667,10 @@ progress::-moz-progress-bar {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 80%;
     text-align: center;
+}
+
+.ajuste_titulos{
+    font-size: 20px;
 }
 
 /* ----------- */
@@ -918,6 +926,10 @@ progress::-moz-progress-bar {
         color: #ffffff75;
         font-size: 15px;
         width: 20px;
+    }
+
+    .ajuste_titulos{
+        font-size: 12px;
     }
 
 }
